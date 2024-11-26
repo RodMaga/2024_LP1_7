@@ -1,0 +1,40 @@
+/* BODY */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    background: url("1321760.jpeg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Garante que o header ocupe 100% da largura da tela */
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    z-index: 100;
+}
+
+/* LOGO */
+.logo {
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+
+/* NAVIGATION LINKS */
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px; /* Adiciona espaçamento entre os links */
+    font-size: 16px;
+}
