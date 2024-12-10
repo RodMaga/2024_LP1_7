@@ -3,60 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto 1</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <a href="#" class="logo">Logo</a>
-
-        <div class="navbar">
-            <nav>
-                <a href="#">C</a>
-                <a href="#">Cobol</a>
-                <a href="#">Basic</a>
-                <a href="#">Fortran</a>
-            </nav>
-        </div>
+    <header>
+        <hgroup>
+            <h1>Historia das linguagens</h1>
+        </hgroup>
+        <nav>
+            <ul class="menu">    
+                <li> <a class="active" href="index.html"> Home </a></li>             
+                <li> <a href="c.html"> C </a></li>                           
+                <li> <a href="basic.html"> Basic </a></li>
+                <li> <a href="fortran.html"> Fortran </a></li>
+            </ul>
+        </nav>
     </header>
-
-    <div class="card-container">
-        <div class="card">
-            <img src="c.png" alt="C Logo">
-            <div class="card-content">
+    <main class="card-container">
+        <article class="card">
+            <img src="img/c_prog.png" alt="C Logo">
+            <section class="card-content">
                 <h3>C</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptas quod quaerat in aliquid, placeat culpa ratione voluptatem eos earum autem rem nulla iste. Eius fuga quisquam aperiam ipsum! Numquam.</p>
                 <a href="c.html" class="btn">Ler Mais!</a>
-            </div>
-        </div>
+            </section>
+        </article>
 
-        <div class="card">
-            <img src="cobol.jpg" alt="Cobol Logo">
-            <div class="card-content">
-                <h3>Cobol</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptas quod quaerat in aliquid, placeat culpa ratione voluptatem eos earum autem rem nulla iste. Eius fuga quisquam aperiam ipsum! Numquam.</p>
-                <a href="cobol.html" class="btn">Ler Mais!</a>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="basic.png" alt="Basic Logo">
-            <div class="card-content">
+        <article class="card">
+            <img src="img/basic.png" alt="Basic Logo">
+            <section class="card-content">
                 <h3>Basic</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptas quod quaerat in aliquid, placeat culpa ratione voluptatem eos earum autem rem nulla iste. Eius fuga quisquam aperiam ipsum! Numquam.</p>
                 <a href="basic.html" class="btn">Ler Mais!</a>
-            </div>
-        </div>
+            </section>
+        </article>
 
-        <div class="card">
-            <img src="fortran.png" alt="Fortran Logo">
-            <div class="card-content">
+        <article class="card">
+            <img src="img/fortran.png" alt="Fortran Logo">
+            <section class="card-content">
                 <h3>Fortran</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptas quod quaerat in aliquid, placeat culpa ratione voluptatem eos earum autem rem nulla iste. Eius fuga quisquam aperiam ipsum! Numquam.</p>
-                <a href="fortran.html" class="btn">Ler Mais!</a>
-            </div>
-        </div>
-    </div>
-
+                <a href="basic.html" class="btn">Ler Mais!</a>
+            </section>
+        </article>
+    </main> 
+    <footer>
+        &copy; 2024 Grupo7 Turma B
+    </footer>
 </body>
 </html>
