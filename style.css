@@ -20,27 +20,29 @@ header {
     border-bottom: 2px solid #eaeaea;
 }
 
-header .logo img {
+.logo{
     height: 50px;
     width: 120px; 
     object-fit: contain; 
     transition: transform 0.3s ease;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
-header .logo img:hover {
+.logo:hover {
     transform: scale(1.1); /* Ligeiro zoom no hover */
 }
 
-header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 5px;
-    margin: 0;
-    padding: 0;
+li{
+    padding-top: 5px;
 }
 
-header nav ul li a {
+.menu{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu a{
     text-decoration: none;
     color: #007bff;
     font-weight: 600;
@@ -50,10 +52,15 @@ header nav ul li a {
     border-radius: 5px;
 }
 
-header nav ul li a:hover {
+.menu a:hover{
     background-color: #007bff;
     color: white;
     transform: scale(1.05);
+}
+
+.menu li{
+    padding-left: 20px;
+    padding-top: 0px;
 }
 
 main{
@@ -63,10 +70,6 @@ main{
     
 }
 
-section{
-    padding: 10px;
-}
-
 h1{
     font-size: 20px;
     font-weight: bold;
@@ -74,28 +77,9 @@ h1{
     padding-left: 10px;
 }
 
-.menu{
-    list-style: none;
-    display: flex;
-}
-
-ul{
-    padding-right: 10px;
-}
-
-ul a {
-    text-decoration: none;
-    color: black;
-    margin-left: 20px;
-}
-
-footer{
-    text-align: center;
-    padding: 30px;
-}
-
 section{
-    padding-top: 25px;
+    margin-top: 20px;
+    padding: 15px;
     border-radius: 15px;
     border: 1px solid #BFBFBF;
     background-color: white;
@@ -114,12 +98,12 @@ section{
 /* CARD */
 .card {
     max-width: 23%;
+    min-width: 300px;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.2);
     margin: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    position: relative;
     background-color: white;
 }
 
@@ -168,10 +152,17 @@ section{
 
 figure{
     float:right;
+    margin:0;
+}
+
+img{
+    max-width: 100%;
 }
 
 footer{
     text-decoration: underline;
     color: aliceblue;
     margin-top: 15px;
+    text-align: center;
+    padding: 30px;
 }
